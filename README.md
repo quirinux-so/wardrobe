@@ -12,7 +12,7 @@ sudo eggs wardrobe wear --wardrobe ./penguins-eggs/wardrobe --costume colibri
 
 So I had the idea to put the wardrobe in a hidden directory under the user home.
 
-Actually, the command ```eggs wardrobe get``` clone the wardrobe --repo [default --repo httpsç//github.com/pieroproietti/penguins'waqrdrobe] under ```~/.penguins-eggs/wardrobe```
+Actually, the command ```eggs wardrobe get``` clone the wardrobe named ```--repo [default --repo httpsç//github.com/pieroproietti/penguins'waqrdrobe]``` under ```~/.penguins-eggs/wardrobe```
 
 
 If I change the way the command eggs wardrobe get to put a wardrobe name jst wardrobe inside the user home.
