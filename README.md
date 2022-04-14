@@ -12,22 +12,30 @@ sudo eggs wardrobe wear --wardrobe ./penguins-eggs/wardrobe --costume colibri
 
 So I had the idea to put the wardrobe in a hidden directory under the user home.
 
-Actually, the command ```eggs wardrobe get``` clone the wardrobe named ```--repo [default --repo httpsç//github.com/pieroproietti/penguins'waqrdrobe]``` under ```~/.penguins-eggs/wardrobe```
+Actually, the command ```eggs wardrobe get``` clone the wardrobe named **--repo*** ```[default https://github.com/pieroproietti/penguins-waqrdrobe]``` under ```~/.penguins-eggs/wardrobe```
 
+This let me short commands, like:
 
-If I change the way the command eggs wardrobe get to put a wardrobe name jst wardrobe inside the user home.
+```sudo eggs wardrobe wear --costume colibri``` taking the costume from the default wardrobe.
 
-So, we can have this war to wear a costume:
+I want to perfection more, the idea is to have a visible ~/wardrobe just inside the home and structure wardrobe a bit different:
 
 ```
-eggs wardrobe wear ~/wardrobe/costume/colibri 
+~/wardrobe/accessories
+~/wardrobe/costumes
+```
+
+Ideal will be to include in eggs a way to autocomplete the path, to can have:
+
+```
+eggs wardrobe ~/wardrobe/costume/colibri 
 ```
 or this to add an accessory:
 ```
-eggs wardrobe wear ~/wardrobe/accessories/eggs-dev
+eggs wardrobe ~/wardrobe/accessories/eggs-dev
 ```
 
-I see it more logical, but must to think  a bit before to change again.
+I see this more pratical, but must to think  a bit before to change again.
 
 
 ## Costumes
