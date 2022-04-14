@@ -4,8 +4,15 @@ A more complete costumes wardrobe for penguin's eggs.
 
 here I want to deside if in this way will be better.
 
-A problem of wardrobe is who very easy to reach long path and boring to digit 
---wardrobe ./penguins-eggs/wardrobe --costume colibri
+A problem of wardrobe is who very easy to reach long path and boring to digit:
+
+```
+sudo eggs wardrobe wear --wardrobe ./penguins-eggs/wardrobe --costume colibri
+```
+
+So I had the idea to put the wardrobe in a hidden directory under the user home.
+
+Actually, the command ```eggs wardrobe get``` clone the wardrobe --repo [default --repo httpsç//github.com/pieroproietti/penguins'waqrdrobe] under ```~/.penguins-eggs/wardrobe```
 
 
 If I change the way the command eggs wardrobe get to put a wardrobe name jst wardrobe inside the user home.
