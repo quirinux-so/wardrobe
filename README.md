@@ -1,6 +1,27 @@
-# penguins-wardrobe
+# wardrobe
 
-A more complete costumes wardrobe for penguin's eggs
+A more complete costumes wardrobe for penguin's eggs.
+
+here I want to deside if in this way will be better.
+
+A problem of wardrobe is who very easy to reach long path and boring to digit 
+--wardrobe ./penguins-eggs/wardrobe --costume colibri
+
+
+If I change the way the command eggs wardrobe get to put a wardrobe name jst wardrobe inside the user home.
+
+So, we can have this war to wear a costume:
+
+```
+eggs wardrobe wear ~/wardrobe/costume/colibri 
+```
+or this to add an accessory:
+```
+eggs wardrobe wear ~/wardrobe/accessories/eggs-dev
+```
+
+I see it more logical, but must to think  a bit before to change again.
+
 
 ## Costumes
 
