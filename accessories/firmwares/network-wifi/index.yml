@@ -1,0 +1,49 @@
+# network-wifi
+---
+name: network-wifi
+description: install firmware drivers network-wifi
+author: artisan
+release: 0.0.1
+distributions:
+  - bookworm
+  - bullseye
+  - buster
+  - chimaera
+  - focal
+  - impish
+  - jammy
+sequence:
+  packages:
+    - dahdi-firmware-nonfree
+    - dns323-firmware-tools
+    - firmware-misc-nonfree
+    - firmware-amd-graphics
+    - firmware-atheros
+    - firmware-b43-installer
+    - firmware-b43legacy-installer
+    - firmware-bnx2
+    - firmware-bnx2x
+    - firmware-brcm80211
+    - firmware-cavium
+    - firmware-intel-sound
+    - firmware-intelwimax
+    - firmware-ipw2x00
+    - firmware-ivtv
+    - firmware-iwlwifi
+    - firmware-libertas
+    - firmware-linux
+    - firmware-linux-free
+    - firmware-linux-nonfree
+    - firmware-myricom
+    - firmware-netronome
+    - firmware-netxen
+    - firmware-qcom-media
+    - firmware-qlogic
+    - firmware-realtek
+    - firmware-samsung
+    - firmware-siano
+    - firmware-ti-connectivity
+    - firmware-zd1211
+    - grub-firmware-qemu
+    - hdmi2usb-fx2-firmware
+

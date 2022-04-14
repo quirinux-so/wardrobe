@@ -1,0 +1,57 @@
+# wardrobe: .
+# costume: /helenae
+---
+name: helenae
+description: >-
+  desktop xfce4 plus all that I need to develop eggs just for VMs
+  repos
+author: artisan
+release: 0.0.3
+distributions:
+  - bookworm
+  - bullseye
+  - chimaera
+  - focal
+  - impish
+  - jammy
+sequence:
+  repositories:
+    sources_list:
+      - main
+      - contrib
+      - non-free
+    update: true
+    upgrade: true
+  packages:
+    - adwaita-qt
+    - firefox-esr
+    - libxfce4ui-utils
+    - lightdm
+    - network-manager-gnome
+    - network-manager-openvpn
+    - network-manager-openvpn-gnome
+    - qt5ct
+    - tango-icon-theme
+    - thunar
+    - xarchiver
+    - xfce4-appfinder
+    - xfce4-panel
+    - xfce4-pulseaudio-plugin
+    - xfce4-session
+    - xfce4-settings
+    - xfce4-terminal
+    - xfce4-whiskermenu-plugin
+    - xfconf
+    - xfdesktop4
+    - xfwm4
+    - spice-vdagent
+  accessories:
+    - base
+    - eggs-dev
+    - live-installer
+customize:
+  dirs: true
+  scripts:
+    - desktop_link_set.sh
+  hostname: true
+reboot: true

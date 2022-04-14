@@ -1,0 +1,39 @@
+# wardrobe: penguins-wardrobe
+# costume: /duck
+---
+name: duck
+description: desktop cinnamon plus all that we need to enjoy at home and office
+author: artisan
+release: 0.0.3
+distributions:
+  - bookworm
+  - bullseye
+  - buster
+  - chimaera
+  - focal
+  - impish
+  - jammy
+sequence:
+  repositories:
+    sources_list:
+      - main
+      - contrib
+      - non-free
+    update: true
+    upgrade: true
+  packages:
+    - cinnamon
+    - firefox-esr
+  accessories:
+    - base
+    - firmwares
+    - grafica
+    - liquorix
+    - multimedia
+    - office
+customize:
+  dirs: true
+  scripts:
+    - desktop_link_set.sh
+  hostname: true
+reboot: true
